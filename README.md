@@ -13,7 +13,7 @@ A ideia aqui é você recriar esse <a href="https://www.figma.com/file/ExXuvjwWr
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-dicas">Dicas</a>&nbsp;&nbsp;&nbsp;
 </p>
 <br>
 
@@ -30,12 +30,29 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## 🔖 Layout
+## 🔖 Dicas
 
-Você pode visualizar o layout desejado do desafio através <a href="https://www.figma.com/file/2hexXjodR6yUkQFfRYIXHP/Blog-de-Gatos-%E2%80%A2-Desafio-Explorer-(Community)?type=design&node-id=358-220&mode=design&t=6Ol60SEFFbXXa6ju-0">[DESSE LINK]</a>. 
-É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+<p> 
+  Pontos importantes e que devem ser pensados durante a construção do projeto:<br>  
+</p>
+<ul>
+  <li>
+    Inicie o seu projeto levando em consideração a regra do mobile first, como você pode ver, no layout já temos a aplicação responsiva também;
+</li>
 
----
+<li>
+    Você pode adicionar animações, transições e transformações a seu critério;
+</li>
+<li>
+    Seria bacana se já iniciasse o projeto usando as unidades de medida flexíveis (rem);
+</li>
+<li>
+    Você pode usar variáveis no CSS pra treinar;
+</li>
+<li>
+    Olhe com carinho para a acessibilidade: cuide da semântica do seu HTML.
+</li>    
+</ul>
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
 
