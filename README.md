@@ -8,7 +8,7 @@ Preparamos pra você um desafio que envolve o máximo de conteúdo visto nos sta
 Como dito anteriormente, passando pelo quiz e conseguindo reproduzir esse layout, sem grandes dificuldades, você já estará apto para **pular direto para o Stage 05**! <br> 
 Woooow! Que demais, hein? 💙 <br>
 <br>
-A ideia aqui é você recriar esse **[layout](https://www.figma.com/file/563kgHMxsEy17nCdTJI6JC/Explore-sem-limites/duplicate)** mas, diferente dos desafios iniciais que possuem apenas uma tela, esse tem mais de uma seção…
+A ideia aqui é você recriar esse <a href="https://www.figma.com/file/ExXuvjwWrt9FdR6T2MfdGm/Explore-sem-limites-(Copy)?type=design&node-id=158-677&mode=design&t=0E3wb2yz3aoii40j-0">Link</a> mas, diferente dos desafios iniciais que possuem apenas uma tela, esse tem mais de uma seção…
 </p>
 
 <p align="center">
