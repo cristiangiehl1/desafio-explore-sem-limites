@@ -1,0 +1,391 @@
+/* 
+    CONFIG GLOBAL
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --bg-color-pink: #F9F4FB;
+    --bg-color-blue: #312D64;
+    
+    --txt-color-headers: #B52184;
+    --txt-color-content: #312D64;
+}
+
+html, 
+body {
+    font-family: "Mulish", sans-serif;
+    font-size: 1.6rem;
+    color: var(--txt-color-content); 
+    
+    
+}
+
+h1,
+h2 {
+    color: var(--txt-color-headers);
+    font-weight: 900;
+}
+
+/* 
+    CONFIG HEADER
+*/
+
+header {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: var(--bg-color-pink);
+
+    padding-bottom: 9.3rem;
+}
+
+header .header-separator {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    gap: 3.5rem;
+
+    justify-items: center;
+    
+    margin: 1.7rem 0 3.5rem;
+}
+
+header > img {
+    width: 36.4rem;
+    transition: transform .5s ease-in-out, filter .6s ease-in;
+}
+
+header > img:hover {
+    transform: scale(1.1);
+    filter: saturate(50%);
+
+}
+
+.header-separator .text-wrapper {    
+    text-align: center;
+}
+
+.header-separator .text-wrapper h1 {    
+    font-size: 3.2rem;       
+
+    margin-bottom: .5rem;
+}
+
+.header-separator .text-wrapper p {    
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* 
+    CONFIG MAIN
+*/
+
+main {
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+    gap: 5rem;
+
+    padding: 5.3rem 0;
+
+    background-color: var(--bg-color-blue);
+}
+
+main .planet-wrapper {
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    gap: 3.3rem;
+        
+    margin: 0 3.9rem;
+    padding: 2.7rem 6rem 2.7rem 2.7rem;
+    border-radius: 2rem;    
+
+    background-color: var(--bg-color-pink);  
+
+    transition: box-shadow .5s;
+}
+
+main .planet-wrapper:hover {
+    background-color: #ccc9f9;
+    box-shadow: 7px -5px 14px 3px black;   
+}
+
+
+.planet-wrapper:hover img {
+    animation: planet_move 1.2s infinite cubic-bezier(0.785, 0.135, 0.15, 0.86);    
+}
+
+.planet-wrapper figcaption h2 {    
+    font-size: 3rem;   
+
+    margin-bottom: 2rem;
+}
+
+.planet-wrapper figcaption p {       
+    font-weight: 600; 
+}
+
+/* 
+    CONFIG CONTACT
+*/
+
+.contact-info {
+    background-color: var(--bg-color-pink);    
+    
+    padding: 7.8rem 0 6.5rem;
+
+}
+
+form h2 {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+    gap: 2.4rem;
+
+    padding: 0 4rem;
+}
+
+form .input-wrapper label {
+    display: absolute;
+    top: 0;
+    left: 0;
+
+    height: 1px;
+    width: 1px;
+
+    display: none;
+}
+
+.icon-box {
+    position: relative;
+}
+
+.icon-box img {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+
+    transform: translateY(-50%);
+
+    z-index: 1;    
+}
+
+form .input-wrapper .icon-box input {
+    height: 4.8rem;
+}
+
+form .input-wrapper .icon-box input {
+    padding: 1.6rem 1.6rem 1.6rem 5rem;
+}
+
+form .input-wrapper .icon-box input,
+form textarea {  
+    border-radius: 1.6rem;
+    border: 2px solid #312D64;
+
+    color: #4b4693;
+    font-weight: 600;
+
+    background-color: transparent;   
+
+    width: 100%;
+}
+
+form textarea {
+    padding: 1.6rem;
+}
+
+form .input-wrapper .icon-box input::placeholder,
+form textarea::placeholder {
+    color: var(--txt-color-content);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+form textarea {
+    height: 12.5rem;
+
+    line-height: 2rem;
+}
+
+form .input-wrapper .icon-box input:focus,
+form textarea:focus {    
+    background-color: #f7e3fe;
+}
+
+
+form input[type="submit"] {
+    background-color: var(--bg-color-blue);
+    
+    padding: 1.6rem;
+
+    border: 0;
+    border-radius: 1.6rem;
+    
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    width: 50%;
+}
+
+.contact-info > img {
+    display: none;
+}
+
+
+/* 
+    CONFIG FOOTER
+*/
+
+footer {
+    background-color: var(--bg-color-blue);
+   
+    padding: 3.2rem 0;
+    
+    color: #FFF;
+    text-align: center;
+}
+
+/* 
+    CONFIG ANIMATIONS
+*/
+
+@keyframes planet_move {
+    0% {
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* 
+    CONFIG MEDIA QUERIES
+*/
+
+@media (min-width: 1440px) {
+    header {
+        flex-direction: row-reverse;
+        align-items: normal;
+
+        margin: 0;
+        padding: 0;
+
+    
+    }
+
+    header > img {
+        width: 72rem;
+
+        margin-right: 3rem;
+        margin-bottom: 10.4rem;
+
+    }
+
+
+    header .header-separator {
+        justify-items: start;
+        align-content: center;
+
+        margin: 0;
+
+
+        gap: 18rem;
+    }
+    
+    .header-separator .text-wrapper {    
+        text-align: left;
+    }
+
+    .header-separator .text-wrapper h1 {
+        font-size: 6rem;
+    }
+
+    .header-separator .text-wrapper p {
+        font-size: 3.2rem;
+    }
+
+
+    main {        
+        grid-template-rows: none;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6rem;  
+        
+        padding: 6.4rem 11rem;
+    }
+
+    main .planet-wrapper {
+    gap: 2.4rem;
+        
+    margin: 0;
+    padding: 3.2rem 1.3rem 7.2rem 3.2rem;   
+    }
+
+    main .planet-wrapper img {
+        width: 9.7rem;
+        height: 9.7rem;
+    }
+
+    main .planet-wrapper h2 {
+        font-size: 3.5rem;
+    }
+
+    main .planet-wrapper p {
+        font-size: 2rem;
+    }
+
+
+    .contact-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 9.2rem;
+
+        align-items: center;
+        justify-items: stretch;
+
+        padding: 0;
+
+    }
+
+    .contact-info img {
+        display: block;
+    }
+
+    form {
+        padding: 0 0 0 11rem;
+    }
+
+    form h2 {
+        font-size: 4.2rem;
+        margin-bottom: .6rem;        
+    }
+
+    .input-wrapper .icon-box input,
+    form textarea {
+        font-size: 1.8rem;
+
+    }
+
+
+    footer {
+        font-size: 2rem;
+    }
+    
+}
