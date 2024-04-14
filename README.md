@@ -1,28 +1,14 @@
-<h1 align="center"> Desafio Explore sem limites <img src="![image](https://github.com/cristiangiehl1/desafio-explore-sem-limites/assets/140261113/7857ee64-8ce4-419a-a600-f88601632826)
-" alt=""> </h1>
+<h1 align="center"> Desafio Explore sem limites 👩🏻‍🚀</h1>
 
 <p align="justify">
-Tente se atentar ao conteúdo que foi passado na aula. Portanto, nesse desafio, lembre-se de usar:
-  <ul>
-    <li>
-      Mobile First: inicie o projeto deixando-o responsivo em telas menores para depois ajustar para uma versão desktop;
-    </li>
-    <li>
-      Unidade de medida flexível;
-    </li>
-    <li>
-      Grid;
-    </li>
-    <li>
-      Variáveis no CSS;
-    </li>
-    <li>
-      Cores HSL;
-    </li>
-    <li>
-      Animações e transições simples.
-    </li>
-  </ul>
+Chegou o momento de colocar a mão na massa e se desafiar com código! <br>
+Bora ver o que te espera por aí? 👀 <br>
+<br>
+Preparamos pra você um desafio que envolve o máximo de conteúdo visto nos stages iniciais. <br>
+Como dito anteriormente, passando pelo quiz e conseguindo reproduzir esse layout, sem grandes dificuldades, você já estará apto para **pular direto para o Stage 05**! <br> 
+Woooow! Que demais, hein? 💙 <br>
+<br>
+A ideia aqui é você recriar esse **[layout](https://www.figma.com/file/563kgHMxsEy17nCdTJI6JC/Explore-sem-limites/duplicate)** mas, diferente dos desafios iniciais que possuem apenas uma tela, esse tem mais de uma seção…
 </p>
 
 <p align="center">
@@ -32,7 +18,7 @@ Tente se atentar ao conteúdo que foi passado na aula. Portanto, nesse desafio, 
 <br>
 
 <p align="center">
-  <img alt="layout desafio blog de gatos" src="github/capa.png" width="100%">
+  <img alt="layout desafio blog de gatos" src="github/theme.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
